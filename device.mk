@@ -605,3 +605,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 $(call inherit-product-if-exists, hardware/qcom/msm8994/msm8992.mk)
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8994/msm8994-gpu-vendor.mk)
+
+#AIM OTA config
+PRODUCT_PROPERTY_OVERRIDES += \
+        ro.ota.romname=AIM-ROM \
+        ro.ota.version=$(shell date +"%Y%m%d") \
+        ro.ota.manifest=https://raw.githubusercontent.com/AIMROM/OFFICIAL_DEVICES/N/bullhead.xml
+
+
+
+
+
+
+
+
