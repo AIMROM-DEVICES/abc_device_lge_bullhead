@@ -12,14 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common Cardinal stuff
-$(call inherit-product, vendor/cardinal/common.mk)
+# Inherit some common AIM stuff
+$(call inherit-product, vendor/aim/common.mk)
 
 # Inherit AOSP device configuration for bullhead
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := cardinal_bullhead
+PRODUCT_NAME := aim_bullhead
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := bullhead
 PRODUCT_MODEL := Nexus 5X
