@@ -1,12 +1,12 @@
 [
   {
-    "repository": "GZR-Kernels/kernel_lge_bullhead",
+    "repository": "mohican16/abc_kernel_lge_bullhead",
     "target_path": "kernel/lge/bullhead",
-    "branch": "8.1"
+    "branch": "o2"
   },
   {
-    "repository": "BigTopKrazies/proprietary_vendor_lge",
+    "repository": "mohican16/abc_vendor_lge",
     "target_path": "vendor/lge",
-    "branch": "8.1"
+    "branch": "o2"
   }
 ]
